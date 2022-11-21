@@ -1,0 +1,32 @@
+# 6 Tipe Data JavaScript :
+- number
+- boolean
+- object
+- function 
+- undifined
+-----------------------------------------------------------------------
+# nilai integer bisa ditapung JavaScript = 15 Digit
+# untuk nilai float dibelakang koma bisa ditampung = 17 Digit
+-----------------------------------------------------------------------
+# ini contoh bilangan exponen :
+ 123e5 = 12300000
+ 123-5 = 0.00123
+-----------------------------------------------------------------------
+!!! Hati-hati mengawali angka JavaScript dengan 0 diawal !!!
+contoh : 022 = 18
+dikarenakan nilai dianggap adalah nilai oktal bukan decimal
+-----------------------------------------------------------------------
+# NAN (Not A Number)
+- jika suatu bilangan dibagi string  [ 2 / 'valdo' = NAN ] 
+- jika 0 dibagi 0 [ 0 / 0 = NAN ]
+-----------------------------------------------------------------------
+# - Infinity
+jika bilangan utama minus dan dibagi 0 [-5 / 0 = -Infinity]
+-----------------------------------------------------------------------
+# Infinity
+Jika suatu bilangan dibagi 0 akan infinity [ 5 / 0 = Infinity]
+-----------------------------------------------------------------------
+
+!!! Jika bilangan dibagi dengan string bilangan, hasilnya otomatis bilangan
+contoh : 20 / '20' = 1 
+nilai 1 akan otomatis menjadi int atau number
